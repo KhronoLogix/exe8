@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Dominic Cruz/ Exe8 / 3/8/25
 public class Main {
     static Scanner input = new Scanner(System.in);
 
@@ -33,7 +33,7 @@ public class Main {
                         String businessPhone = input.nextLine();
 
                         CollectContacts.addContact(new BusContact(businessName, businessEmail, businessPhone));
-                        System.out.println("Business contact successfully added!");
+                        System.out.println("Business contact added!");
                     }
 
                     System.out.println("Would you like to add another Business Contact? (Y/N)");
@@ -51,7 +51,7 @@ public class Main {
                 String businessPhone = input.nextLine();
 
                 CollectContacts.addContact(new BusContact(businessName, businessEmail, businessPhone));
-                System.out.println("Business contact successfully added!");
+                System.out.println("Business contact  added!");
 
                 System.out.println("Would you like to add another Business Contact? (Y/N)");
                 String option = input.nextLine();
@@ -61,7 +61,7 @@ public class Main {
             }
         }
 
-        System.out.println("\n--- Contact List ---");
+        System.out.println("\n Contact List ");
         CollectContacts.contactBook();
     }
 }
